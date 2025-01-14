@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/app.ts",
+    "serve": "tsc && node dist/app.js",
+    "dev": "nodemon src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@types/nodemon": "^1.19.6",
+    "cors": "^2.8.5",
+    "diskusage": "^1.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "googleapis": "^144.0.0",
+    "helmet": "^8.0.0",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
